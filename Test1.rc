@@ -1,0 +1,120 @@
+//Microsoft eMbedded Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "newres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""newres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menubar
+//
+
+IDR_HELLO_MENUBAR MENU DISCARDABLE 
+BEGIN
+    MENUITEM "Exit",                        IDOK
+    POPUP "Options"
+    BEGIN
+        MENUITEM "New and Show",                ID_NEWWINDOW
+        MENUITEM "Set Text",                    ID_SETTEXT
+        MENUITEM "Go",                          ID_GO
+        MENUITEM "Close Window",                ID_CLOSEWINDOW
+        MENUITEM "Beep",                        ID_BEEP
+        MENUITEM "Hide",                        ID_HIDE
+        MENUITEM "Show",                        ID_SHOW
+        MENUITEM "Do File Stuff",               ID_DOFILESTUFF
+        MENUITEM "Light",                       ID_LIGHT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Data
+//
+
+IDR_HELLO_MENUBAR SHMENUBAR DISCARDABLE 
+BEGIN
+    IDR_HELLO_MENUBAR, 2,
+    I_IMAGENONE, IDOK, TBSTATE_ENABLED, TBSTYLE_AUTOSIZE, IDS_HELLO_OK, 0, 
+    NOMENU,
+    I_IMAGENONE, ID_STUFF, TBSTATE_ENABLED, 
+    TBSTYLE_DROPDOWN | TBSTYLE_AUTOSIZE, IDS_CAP_STUFF, 0, 1,
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_HELLO_OK            "Exit"
+    IDS_HELLO_TITLE         "Test Dialog App"
+    IDS_HELLO_MESSAGE       "Main Window"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CAP_NEWWINDOW       "New Window"
+    IDS_CAP_STUFF           "Options"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
